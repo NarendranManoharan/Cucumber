@@ -1,0 +1,220 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Too execute before all scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 174025200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Completed the high school",
+            "match": {
+              "location": "BackgroundDef.completed_the_high_school()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Completed the higher sec school",
+            "match": {
+              "location": "BackgroundDef.completed_the_higher_sec_school()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 245200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHook.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To study medicine",
+        "description": "",
+        "id": "background-scenario;to-study-medicine",
+        "after": [
+          {
+            "result": {
+              "duration": 58800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHook.AfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Student applied for the medical course",
+            "match": {
+              "location": "BackgroundDef.student_applied_for_the_medical_course()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clear the entrance exam",
+            "match": {
+              "location": "BackgroundDef.clear_the_entrance_exam()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Joinig the medical institute",
+            "match": {
+              "location": "BackgroundDef.joinig_the_medical_institute()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Too execute before all scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 76100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Completed the high school",
+            "match": {
+              "location": "BackgroundDef.completed_the_high_school()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Completed the higher sec school",
+            "match": {
+              "location": "BackgroundDef.completed_the_higher_sec_school()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 65200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHook.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To study engineering",
+        "description": "",
+        "id": "background-scenario;to-study-engineering",
+        "after": [
+          {
+            "result": {
+              "duration": 40900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHook.AfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 65700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Student applied for the engineering course",
+            "match": {
+              "location": "BackgroundDef.student_applied_for_the_engineering_course()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Attended the counselling",
+            "match": {
+              "location": "BackgroundDef.attended_the_counselling()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Joining the engineering college",
+            "match": {
+              "location": "BackgroundDef.joining_the_engineering_college()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Background scenario",
+    "description": "",
+    "id": "background-scenario",
+    "keyword": "Feature",
+    "uri": "Background.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Background"
+      }
+    ]
+  }
+]

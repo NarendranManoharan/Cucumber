@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+    <testcase classname="open the google" name="open the google" time="0">
+        <skipped>
+            <![CDATA[Given User enetr enter google.com...........................................skipped
+When user clicks search box.................................................skipped
+And type search term as "Gym"...............................................skipped
+Then then user should see the search result for Gym.........................undefined
+]]>
+        </skipped>
+    </testcase>
+</testsuite>
